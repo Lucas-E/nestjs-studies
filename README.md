@@ -10,3 +10,5 @@ Comentários são sempre bem vindos.
 
 O projeto base conta com os dados básicos de um novo projeto em NestJs com a adição do typeorm, @nestjs/typeorm e mysql2
 como drivers para o banco de dados.
+
+Além disso, o projeto também conta com um docker compose para o mysql.
