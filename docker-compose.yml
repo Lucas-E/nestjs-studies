@@ -10,9 +10,12 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: car-price-db
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
+      MYSQL_USER: default
+      MYSQL_PASSWORD: default
     volumes:
-      - "../mysql_data:/var/lib/mysql"
+      - mysql_data:/var/lib/mysql
     stdin_open: true
     tty: true
+
+volumes:
+  mysql_data:
